@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tebak Nama Hewan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tebak Nama Hewan</h1>
+    <div id="lives">❤️❤️❤️</div>
+    <div id="question"></div>
+    <input type="text" id="answer" placeholder="Jawaban..." />
+    <button onclick="checkAnswer()">Cek Jawaban</button>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+  <canvas id="confetti-canvas"></canvas>
+  <script src="questions.js"></script>
+  <script src="confetti.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
